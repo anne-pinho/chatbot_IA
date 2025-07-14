@@ -35,7 +35,7 @@ private fun handleSendMessage(
 ) {
     if (message.isNotEmpty()) {
         onMessageSend(message)
-        onMessageCleared(message)
+        onMessageCleared("")
     }
 }
 
